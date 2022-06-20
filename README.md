@@ -5,14 +5,11 @@ Aplicación de panel administrativo de Move
 
 ## Credenciales de acceso
 
-- "email": "example@example.com",
-- "password": "12345678"
+- Email: example@example.com,
+- Password: 12345678
 
 
 ![Logo](https://res.cloudinary.com/dmaviub4l/image/upload/v1653989340/ihrda8sczta1nboafcdq.png)
-
-
-
 
 ## Frontend Tech Stack
 
@@ -27,8 +24,6 @@ Aplicación de panel administrativo de Move
 - SweetAlert2
 - Consumo de API Rest creado por backend
 - Autenticación con Firebase - Email y Contraeña
-
-
 
 ## Run Locally
 
@@ -56,11 +51,9 @@ Start the server
   npm run start
 ```
 
-
 ## Screenshots
 
 ![App Screenshot](https://res.cloudinary.com/karvaroz/image/upload/v1655749098/screenshot_1_bxkple.png)
-
 
 ## Authors
 
@@ -80,4 +73,3 @@ Start the server
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
-
