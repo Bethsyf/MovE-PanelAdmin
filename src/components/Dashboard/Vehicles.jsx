@@ -5,7 +5,7 @@ const Vehicles = () => {
 
   const getVehicles = async () => {
     const user = JSON.parse(localStorage.getItem("user")) || "";
-    const data = await fetch("http://35.211.155.160:5000/vehicles", {
+    const data = await fetch("https://api.demodaymove.tech/vehicles", {
       headers: {
         Authorization: `Bearer ${user.token}`,
       },

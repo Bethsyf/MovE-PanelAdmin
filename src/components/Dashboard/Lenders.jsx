@@ -7,7 +7,7 @@ const Lenders = () => {
 
   const getLenders = async () => {
     const user = JSON.parse(localStorage.getItem("user")) || "";
-    const data = await fetch("http://35.211.155.160:5000/admin/lender/", {
+    const data = await fetch("https://api.demodaymove.tech/admin/lender/", {
       headers: {
         Authorization: `Bearer ${user.token}`,
       },
@@ -32,7 +32,7 @@ const Lenders = () => {
     e.preventDefault();
     console.log(formValues);
     const user = JSON.parse(localStorage.getItem("user")) || "";
-    fetch("http://35.211.155.160:5000/admin/active/lender", {
+    fetch("https://api.demodaymove.tech/admin/active/lender", {
       body: JSON.stringify({
         cc_user: formValues.cc_user,
         role: formValues.role,

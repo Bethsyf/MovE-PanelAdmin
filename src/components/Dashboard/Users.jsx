@@ -6,7 +6,7 @@ const Users = () => {
   // Traer usuarios
   const getUsers = async () => {
     const user = JSON.parse(localStorage.getItem("user")) || "";
-    const data = await fetch("http://35.211.155.160:5000/auth/users/", {
+    const data = await fetch("https://api.demodaymove.tech/auth/users/", {
       headers: {
         Authorization: `Bearer ${user.token}`,
       },
