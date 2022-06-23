@@ -53,7 +53,7 @@ Start the server
 
 ## Website
 
-[MovE](https://admin.demodaymove.tech/users) https://admin.demodaymove.tech/users
+[MovE](https://admin.demodaymove.tech/) https://admin.demodaymove.tech/
 
 ## Screenshots
 
